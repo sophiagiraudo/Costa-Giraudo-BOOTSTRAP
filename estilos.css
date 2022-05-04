@@ -767,7 +767,10 @@ textarea{
         animation: fadeInLeft;
         animation-duration: 7s;
     }
-    /* formulario */
+    /* contacto */
+    .backHeaderContacto{
+        height: 10%;
+    }
     .formContacto{
             width: 100%;
     }
@@ -779,6 +782,10 @@ textarea{
     }
     .backHeaderTrabajos{
         position: relative;
+    }
+    /* trabajos */
+    .card-img{
+        height: 300px;
     }
 
 }
@@ -886,7 +893,10 @@ textarea{
                 "ph3foto"
                 "ph3foto";
         }
-        /* formulario */
+        /* contacto */
+        .backHeaderContacto{
+            height: 10%;
+        }
         .formContacto{
             width: 100%;
         }
@@ -898,6 +908,10 @@ textarea{
         }
         .backHeaderTrabajos{
             position: relative;
+        }
+            /* trabajos */
+        .card-img{
+            height: 220px;
         }
 }
 @media (min-width: 992px) { }
